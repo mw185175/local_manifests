@@ -8,14 +8,13 @@
            revision="a14/master" />
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
-           revision="a14/master" />
-  
+           revision="a14/master" 
   <!--
   <remote  name="github"
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -62,7 +61,7 @@
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
 
-  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="phantom" >
+  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/vendor-legacy" />
   </project>
   <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-msm8937" name="kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="mi-thorium" >
@@ -92,15 +91,4 @@
   <project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
-
-<!-- Datura -->
-<project path="prebuilts/calyx/datura" name="DerpFest-AOSP/prebuilts_calyx_datura" remote="github" clone-depth="1" revision="14" />
-<project path="external/calyx/datura" name="DerpFest-AOSP/external_calyx_datura" groups="pdk" remote="github" revision="14" />
-
-<!-- Derp prebuilts -->
-<project path="prebuilts/derp" name="prebuilts_derp" remote="phantom" revision="14" />
-  
-<!-- v4x -->
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
-
 </manifest>
