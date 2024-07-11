@@ -8,13 +8,14 @@
            revision="a14/master" />
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
-           revision="a14/master" 
+           revision="a14/master" />
+  
   <!--
   <remote  name="github"
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -97,5 +98,8 @@
   
 <!-- v4x -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
-  
+<!-- Crdroid dialer -->
+<remove-project name="LineageOS/android_packages_apps_Dialer" />
+<project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="14.0" />  
+
 </manifest>
