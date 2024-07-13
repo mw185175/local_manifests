@@ -9,9 +9,7 @@ q<?xml version="1.0" encoding="UTF-8"?>
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
            revision="a14/master" />
-  <remote  name="LineageOS"
-           fetch="https://github.com/LineageOS"
-           revision="a14/master" />
+  
   
   
   <!--
@@ -19,7 +17,7 @@ q<?xml version="1.0" encoding="UTF-8"?>
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="LineageOS"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
