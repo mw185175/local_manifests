@@ -93,10 +93,6 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
 
-<!-- Datura -->
-<project path="prebuilts/calyx/datura" name="DerpFest-AOSP/prebuilts_calyx_datura" remote="github" clone-depth="1" revision="14" />
-<project path="external/calyx/datura" name="DerpFest-AOSP/external_calyx_datura" groups="pdk" remote="github" revision="14" />
-
 <!-- Derp prebuilts -->
 <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisam" revision="14" />
   
