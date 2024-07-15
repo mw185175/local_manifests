@@ -15,7 +15,7 @@
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan" revision="a14/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -62,7 +62,7 @@
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
 
-  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="mi-thorium" >
+  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="Gtajisan" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/vendor-legacy" />
   </project>
   <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-msm8937" name="kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="mi-thorium" >
