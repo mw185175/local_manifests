@@ -82,9 +82,9 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/xiaomi-sdm439" />
   </project>
 
-  <project path="kernel/xiaomi/mithorium-4.19/module/audio-legacy" name="kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master" remote="mi-thorium">
-    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/audio-legacy" />
-  </project>
+  <!--project path="kernel/xiaomi/mithorium-4.19/module/audio-legacy" name="kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master" remote="mi-thorium"-->
+    <!--linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/audio-legacy" /-->
+  <!--/project-->
   <project path="kernel/xiaomi/mithorium-4.19/module/camera-legacy" name="kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.8.6.r1-05300-89xx.0/4.19/mithorium" remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/camera-legacy" />
   </project>
