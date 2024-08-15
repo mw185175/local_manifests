@@ -92,9 +92,9 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/camera-legacy-m" />
   </project>
 
-  <project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
-    <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
-  </project>
+  <!--project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" -->
+    <!--linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" /-->
+  <!--/project-->
 
 <!-- Derp prebuilts -->
 <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
