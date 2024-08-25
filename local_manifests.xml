@@ -6,9 +6,6 @@
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
            revision="a14/master" />
-  <remote  name="Alioth-Tree"
-           fetch="https://github.com/Alioth-Tree"
-           revision="14" />
   <remote  name="Trijal08"
            fetch="https://github.com/Trijal08"
            revision="SigmaDroid-14" />
