@@ -9,8 +9,16 @@
   <remote  name="Trijal08"
            fetch="https://github.com/Trijal08"
            revision="SigmaDroid-14" />
+  <remote  name="phantom"
+           fetch="https://github.com/PhantomEnigma"
+           revision="a14/master" />
+  
+ <!-- fix -->
+  <remove-project path="vendor/qcom/opensource/libfmjni"/>
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Gtajisan" revision="lineage-21.0" />
+  
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan" revision="a14/master"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom" revision="a14/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -52,7 +60,7 @@
  <!-- Mi439 - Kernel 4.19 -->
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 
-  <!-- Kernel -->
+ <!-- Kernel -->
  <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/master" remote="mi-thorium" >
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
