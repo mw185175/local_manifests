@@ -12,9 +12,9 @@
   <remote  name="phantom"
            fetch="https://github.com/PhantomEnigma"
            revision="a14/master" />
-  <remote  name="Alioth-Tree"
-           fetch="https://github.com/Alioth-Tree"
-           revision="14" />
+  <remote  name="Koushikdey2003"
+           fetch="https://github.com/Koushikdey2003"
+           revision=v4a" />
   
  <!-- fix -->
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
@@ -103,6 +103,6 @@
 <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
   
 <!-- v4x -->
-<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Alioth-Tree" />
+<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Koushikdey2003" />
 
 </manifest>
