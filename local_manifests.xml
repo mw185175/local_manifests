@@ -14,7 +14,7 @@
            revision="a14/master" />
   <remote  name="Koushikdey2003"
            fetch="https://github.com/Koushikdey2003"
-           revision=v4a" />
+           revision="v4a" />
   
  <!-- fix -->
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
