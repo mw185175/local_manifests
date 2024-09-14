@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- v4x -->
- <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a" />
-      
-<!-- Apps -->
-<project path="packages/apps/GrapheneCam" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" revision="topaz" clone-depth="1" />
 
-<!-- Kernel -->
-<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc_new" />
+<!-- Removed Projects -->
 
-<!-- HALs -->
-<project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" clone-depth="1" revision="udc-k4.19" />
 
-<!-- GPS -->
-<project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
-   
-<!-- Device -->
-<project path="device/xiaomi/mi439" name="Trijal08/device_xiaomi_mi439" remote="github" revision="TenX_OS" />
-<project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc-3" />
+<!-- Lineage OS Pixel Device Trees -->
+<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="TenX_OS" />
+<project name="austineyoung2000/android_device_google_akita" path="device/google/akita" remote="github" revision="RisingOS-4.x" />
+<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
+<project name="minaripenguin/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fourteen" />
+<project name="minaripenguin/android_device_google_gs201" path="device/google/gs201" remote="github" revision="fourteen" />
+<project name="austineyoung2000/android_device_google_lynx" path="device/google/lynx" remote="github" revision="Rising-4.x" />
+<project name="austineyoung2000/android_device_google_bluejay" path="device/google/bluejay" remote="github" revision="RisingOS" />
+<project name="austineyoung2000/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
+<project name="austineyoung2000/android_device_google_pantah" path="device/google/pantah" remote="github" revision="RisingOS" />
 
-<!--- Vendor Blobs -->
-<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
-<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
+<!-- Lineage OS Pixel Vendor Trees -->
+<project name="austineyoung2000/proprietary_vendor_google_lynx" path="vendor/google/lynx" remote="github" revision="Rising-4.x" />
+<project name="austineyoung2000/proprietary_vendor_google_akita" path="vendor/google/akita" remote="github" revision="RisingOS-4.x" />
+<project name="austineyoung2000/proprietary_vendor_google_bluejay" path="vendor/google/bluejay" remote="github" revision="RisingOS-4.x" />
+<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="RisingOS" />
+<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="RisingOS" />
+<project name="austineyoung2000/proprietary_vendor_google_cheetah" path="vendor/google/cheetah" remote="github" revision="RisingOS" />
 
-<!-- Vendor Opensource -->
-<project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
+<!-- AOSP Prebuilt Kernels -->
+<project path="device/google/lynx-kernel" name="device/google/lynx-kernel" remote="aosp" revision="refs/heads/main"/>
+<project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" remote="aosp" revision="refs/heads/main"/>
+<project path="device/google/akita-kernel" name="device/google/akita-kernel" remote="aosp" revision="refs/heads/main"/>
+<project path="device/google/shusky-kernel" name="device/google/shusky-kernel" remote="aosp" revision="refs/heads/main"/>
+<project path="device/google/pantah-kernel" name="device/google/pantah-kernel" remote="aosp" revision="refs/heads/main"/>
+
+<!-- Extra trees -->
+<project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
+<project name="SigmaDroid-Project/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="sigma-14.3" />
+<project name="ashoss/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
+<project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a"/>
 
 </manifest>
