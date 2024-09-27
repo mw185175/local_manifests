@@ -4,13 +4,13 @@
 <!-- Removed Projects -->
 
 
-<!-- OrangeFox/TWRP Device Trees -->
+<!-- TWRP Device Trees -->
 <project name="Trijal08/twrp_device_google_husky" path="device/google/husky" remote="github" revision="twrp-12.1" />
-<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
+<project name="Trijal08/twrp_device_google_gs-common" path="device/google/gs-common" remote="github" revision="twrp-12.1" />
 <project name="Trijal08/twrp_device_google_zuma" path="device/google/zuma" remote="github" revision="twrp-12.1" />
 
-<!-- Lineage OS Pixel 8 Pro (husky) Vendor Tree -->
-<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="RisingOS" />
+<!-- TWRP Pixel 8 Pro (husky) Vendor Tree -->
+<project name="Trijal08/twrp_proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="twrp-12.1" />
 
 <!-- AOSP Prebuilt Kernels -->
 <project path="device/google/shusky-kernel" name="device/google/shusky-kernel" remote="aosp" revision="refs/heads/main"/>
