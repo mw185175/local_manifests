@@ -5,7 +5,7 @@
 
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="PixelStar_OS" />
+<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="TenX_OS" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
 <project name="minaripenguin/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fourteen" />
 <project name="austineyoung2000/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
