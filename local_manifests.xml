@@ -23,7 +23,4 @@
 <project name="ashoss/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a"/>
 
-<!-- Pixel Framework -->
-<project name="Project-PixelStar/vendor_google_pixel-framework" path="vendor/google/pixel-framework" remote="github" revision="14-qpr3" />
-
 </manifest>
