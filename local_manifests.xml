@@ -15,8 +15,7 @@
 <project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="RisingOS" />
 
 <!-- Kernels -->
-<project path="device/google/shusky-kernel" name="device/google/shusky-kernel" remote="aosp" revision="refs/heads/main"/>
-<!-- project name="0ctobot/neutrino_kernel_google_zuma" path="kernel/google/zuma" remote="github" revision="android15-qpr1-beta/neutrino-google-zuma-5.15" / -->
+<project name="Trijal08/neutrino_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="main"/>
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
