@@ -8,7 +8,7 @@
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Orion_OS" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
 <project name="minaripenguin/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fourteen" />
-<project name="austineyoung2000/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
+<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
 <project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="RisingOS" />
