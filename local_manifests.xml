@@ -14,7 +14,7 @@
 <project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="RisingOS" />
 <project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="RisingOS" />
 
-<!-- Prebuilt Kernels -->
+<!-- Prebuilt Kernel -->
 <project name="Trijal08/neutrino_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14"/>
 
 <!-- Extra trees -->
