@@ -9,6 +9,7 @@
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="GrapheneOS/device_google_shusky" path="device/google/shusky" remote="github" revision="15" />
+<project name="GrapheneOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" remote="aosp" revision="android15-release" />
 <project name="GrapheneOS/device_google_gs-common" path="device/google/gs-common" remote="github" revision="15" />
 <project name="GrapheneOS/device_google_gs101" path="device/google/gs101" remote="github" revision="15" />
 <project name="GrapheneOS/device_google_zuma" path="device/google/zuma" remote="github" revision="15" />
