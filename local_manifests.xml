@@ -9,6 +9,7 @@
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="GrapheneOS/device_google_shusky" path="device/google/shusky" remote="github" revision="15" />
+<project name="device/google/shusky-sepolicy" path="device/google/shusky-sepolicy" remote="aosp" />
 <project name="LineageOS/android_device_google_husky" path="device/google/husky" remote="github" revision="lineage-22.0" />
 <project name="GrapheneOS/device_google_gs-common" path="device/google/gs-common" remote="github" revision="15" />
 <project name="GrapheneOS/device_google_gs101" path="device/google/gs101" remote="github" revision="15" />
@@ -16,8 +17,8 @@
 <project name="GrapheneOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" remote="github" revision="15" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google_devices/husky" remote="github" revision="lineage-22.0" />
-<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google_devices/shiba" remote="github" revision="lineage-22.0" />
+<!-- project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google_devices/husky" remote="github" revision="lineage-22.0" / -->
+<!-- project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google_devices/shiba" remote="github" revision="lineage-22.0" / -->
 
 <!-- Prebuilt Kernel -->
 <project name="Trijal08/neutrino_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
