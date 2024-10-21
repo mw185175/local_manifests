@@ -5,6 +5,11 @@
   fetch="https://github.com/" />
 
 <!-- Removed Projects -->
+<remove-project path="device/google/shusky" />
+<remove-project path="device/google/zuma" />
+<remove-project path="device/google/shusky-kernels/5.15" />
+<remove-project path="device/google/gs-common" />
+<remove-project path="device/google/gs101" />
 <remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="hardware/google/camera" />
