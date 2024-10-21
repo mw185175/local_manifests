@@ -5,7 +5,12 @@
   fetch="https://github.com/" />
 
 <!-- Removed Projects -->
-
+<remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/google/pixel-sepolicy" />
+<remove-project path="hardware/google/camera" />
+<remove-project path="hardware/google/av" />
+<remove-project path="hardware/google/gchips" />
+<remove-project path="hardware/google/graphics/common" />
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Project_Pixelage-15" />
