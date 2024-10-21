@@ -12,7 +12,7 @@
 <remove-project path="hardware/google/graphics/common" />
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Project_Pixelage-15" />
+<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="StatiXOS-15" />
 <project name="LineageOS/android_device_google_husky" path="device/google/husky" remote="github" revision="lineage-22.0" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.0" />
 <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.0" />
