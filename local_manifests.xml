@@ -2,11 +2,6 @@
 <manifest>
 
 <!-- Removed Projects -->
-<remove-project path="device/google/shusky" />
-<remove-project path="device/google/zuma" />
-<remove-project path="device/google/shusky-kernels/5.15" />
-<remove-project path="device/google/gs-common" />
-<remove-project path="device/google/gs101" />
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="BananaDroid" />
