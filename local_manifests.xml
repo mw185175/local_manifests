@@ -13,7 +13,7 @@
 <project name="Trijal08/twrp_proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="twrp-12.1" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/neutrino_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14"/>
+<project name="Trijal08/sultan_device_google_shusky-kernel" path="device/google/shusky-kernel" remote="github" revision="14"/>
 
 <!-- Extra trees -->
 <project name="Trijal08/twrp_hardware_google" path="hardware/google" remote="github" revision="twrp-12.1" />
