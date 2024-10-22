@@ -35,7 +35,7 @@
 <project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.0" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/neutrino_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
+<project name="Trijal08/sultan_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
