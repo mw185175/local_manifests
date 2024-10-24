@@ -5,7 +5,7 @@
 
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="github.com/mw185175/device_google_shusky.git" path="device/google/shusky" remote="github" revision="SkylineUI" />
+<project name="/mw185175/device_google_shusky" path="device/google/shusky" remote="github" revision="SkylineUI" />
 <project name="" path="device/google/shusky" remote="github" revision="SkylineUI" />
 <project name="" path="device/google/shusky" remote="github" revision="SkylineUI" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
