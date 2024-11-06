@@ -6,9 +6,9 @@
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="mw185175/android_device_google_shusky-1" remote="github" revision="Derpfest-15-shusky" />
-<project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="15.0" />
-<project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="15.0" />
-<project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.0" />
+<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-21" />
+<project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="14.0-glikched" />
+<project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="14.0" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
 <project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="fifteen" />
