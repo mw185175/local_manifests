@@ -15,7 +15,7 @@
 <project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="fifteen" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/sultan_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
+<project name="Trijal08/neutrino_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
 
 <!-- Extra trees -->
 <project name="ashoss/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
