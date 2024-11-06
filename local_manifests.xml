@@ -5,14 +5,14 @@
 
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="mw185175/android_device_google_shusky" remote="github" revision="Project-Blaze-15-shusky" />
-<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.0" />
-<project name="austineyoung2000/android_device_google_zuma" path="device/google/zuma" remote="github" revision="fifteen" />
+<project name="mw185175/android_device_google_shusky-1" remote="github" revision="Derpfest-15" />
+<project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="15.0" />
+<project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="15.0" />
+<project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.0" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
-<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="RisingOS" />
-<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="RisingOS" />
+<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="fifteen" />
+<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="fifteen" />
 
 <!-- Prebuilt Kernel -->
 <project name="Trijal08/sultan_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
