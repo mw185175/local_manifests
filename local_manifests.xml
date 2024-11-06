@@ -2,20 +2,20 @@
 <manifest>
 
 <!-- Removed Projects -->
-
+<remove-project path="device/google/shusky-kernels/5.15" />
+<remove-project path="device/google/gs-common" />
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="mw185175/android_device_google_shusky-1" remote="github" revision="Derpfest-15-shusky" />
-<project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="14.0-glikched" />
-<project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="14.0-glikched" />
-<project name="austineyoung2000/android_device_google_zuma" path="device/google/zuma" remote="github" revision="RisingOS-4.x" />
+<project name="crdroidandroid/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="15.0" />
+<project name="crdroidandroid/android_device_google_gs101" path="device/google/gs101" remote="github" revision="15.0" />                                                                        <project name="ionutsandroidbuilds/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.0" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
-<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="fifteen" />
-<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="fifteen" />
+<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="fifteen" clone-depth="1" />
+<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="fifteen" clone-depth="1" />
 
 <!-- Prebuilt Kernel -->
-<project name="Trijal08/neutrino_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
+<project name="Trijal08/sultan_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="ashoss/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
