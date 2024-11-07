@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
 <!-- Removed Projects -->
 <remove-project path="device/google/shusky-kernels/5.15" />
 <remove-project path="device/google/gs-common" />
