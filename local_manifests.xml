@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Removed Projects -->
-
+<remove-project path="vendor/bcr" />
 
 <!-- Lineage OS Pixel Device Trees -->
 <project name="mw185175/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Infinity-X-shusky" />
